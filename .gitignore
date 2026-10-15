@@ -1,0 +1,17 @@
+# 依赖
+node_modules
+
+# 构建产物（用 GitHub Actions 自动构建时忽略；若选择「直接上传 dist」方案，请删除此行并把 dist 一起提交）
+dist
+
+# 本地环境变量
+*.local
+.env
+.env.*
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea
